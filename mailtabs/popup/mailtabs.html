@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mailtabs.css"/>
+	</head>
+
+	<body>
+		<div id="title-panel">
+			<h4 id="title"> Email all of your browser tabs or save them to clipboard!</h4><b/>
+		</div>
+		<div id="mailtabs-options">
+			<div class="inputoptions">
+				<input id="allWindowsCheck" type="checkbox" name="allBrowsers" />All Browser Windows<br/> <br/>
+				<label>Email recipient</label>
+				<input class="text" id="recipientText" type="text" name="recipient" /> <br/> <br/>
+				<label>Email subject</label>
+				<input class="text" id="subjectText" type="text" name="subject" /><br/> <br/>				
+				<input id="noEmailWindowCheck" type="checkbox" name="noEmailWindow" />Don't Bring up Email Window<br/> <br/>				
+			</div>
+			
+			
+			<div class="executeButtons">
+				<button id="mailit-button" class="button">Mail Tabs</button>
+				<button id="saveit-button" class="button">Save to Clipboard</button>
+			</div>
+		</div>
+		<script src="mailtabs.js"></script>
+	</body>
+</html>

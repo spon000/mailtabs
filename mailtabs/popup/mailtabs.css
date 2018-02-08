@@ -1,0 +1,47 @@
+html, body {
+  width: 210px;
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+#title-panel {
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: #c0cbcb;
+}
+
+#title {
+	margin: 5px;
+	padding: 5px; 
+}
+
+#mailtabs-options {
+	margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.button {
+  margin: 3% 0;
+  padding: 4px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #e0ebeb
+}
+
+.button:hover {
+	background-color: #d0dbdb
+}
+
+.button:active {
+	background-color: #d0dbdb;
+	transform: translate(2px,2px);
+}
+

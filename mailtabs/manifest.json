@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "MailTabs",
+	"version": "1.0",
+
+	"description": "eMail the URLs of all the currently open browser tabs.",
+
+	"icons": {
+		"48": "icons/tabs-48.png"
+	},
+  
+	"browser_action": {
+		"default_icon": "icons/tabs-32.png",
+		"theme_icons": [{
+			"light": "icons/tabs-32-light.png",
+			"dark": "icons/tabs-32.png",
+			"size": 32
+		}],
+		"default_title": "Mail Tabs",
+		"default_popup": "popup/mailtabs.html"
+	},
+  
+	"permissions": [
+		"activeTab",
+		"storage"
+	]
+
+}
