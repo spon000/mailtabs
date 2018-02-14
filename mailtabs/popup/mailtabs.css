@@ -20,11 +20,18 @@ html, body {
 	margin: 10px;
 }
 
-.hidden {
-  display: none;
+.label-options {
+	margin: 10px;
 }
 
 
+#subjectText {
+	width: 100%;
+}
+
+.hidden {
+  display: none;
+}
 
 .button {
   margin: 3% 0;

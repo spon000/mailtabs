@@ -13,19 +13,20 @@
 		<div id="mailtabs-options">
 			<div class="inputoptions">
 				<input id="allWindowsCheck" type="checkbox" name="allBrowsers" />All Browser Windows<br/> <br/>
-				<label>Email recipient</label>
+				<!-- <label class="label-options">Email sender</label> -->
+				<!-- <input class="text" id="senderText" type="text" name="sender" /> <br/> <br/> -->
+				<label class="label-options">Email recipient</label>
 				<input class="text" id="recipientText" type="text" name="recipient" /> <br/> <br/>
-				<label>Email subject</label>
+				<label class="label-options">Email subject</label>
 				<input class="text" id="subjectText" type="text" name="subject" /><br/> <br/>				
-				<input id="noEmailWindowCheck" type="checkbox" name="noEmailWindow" />Don't Bring up Email Window<br/> <br/>				
 			</div>
-			
 			
 			<div class="executeButtons">
 				<button id="mailit-button" class="button">Mail Tabs</button>
 				<button id="saveit-button" class="button">Save to Clipboard</button>
 			</div>
 		</div>
+		<script src="jquery.min.js"></script>
 		<script src="mailtabs.js"></script>
 	</body>
 </html>
