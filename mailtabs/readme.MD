@@ -1,3 +1,4 @@
+```
 ///////////////////////////////////////////////////////////////////////
 // Mailtabs
 // Browser Addon (tested under Firefox).
@@ -12,4 +13,4 @@
 // 
 // The files for this add on can be found on github:
 // https://github.com/spon000/mailtabs
-
+```
